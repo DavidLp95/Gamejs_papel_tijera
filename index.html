@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Piedra Papel o Tijera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JUEGO PIEDRA PAPEL O TIJERA</h1>
+        <label for="opciones_de_seleccion">Elige tu opción:</label>
+        <select id="opciones_de_seleccion">
+            <option value="piedra">Piedra</option>
+            <option value="papel">Papel</option>
+            <option value="tijera">Tijera</option>
+        </select>
+        <br><br>
+        <button id="boton_random">Jugar</button>
+        <input type="text" id="resultado" placeholder="Resultado del juego" disabled>
+    </header>
+
+    <section class="contenedor_imagenes">
+        <img src="img/png-clipart-stone-stone-cartoon.png" alt="piedra" class="opcion piedra">
+        <img src="img/OIP.webp" alt="papel" class="opcion papel">
+        <img src="img/OIP (1).webp" alt="tijera" class="opcion tijera">
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
